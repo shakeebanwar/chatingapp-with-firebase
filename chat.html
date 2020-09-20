@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBNJrE1rAqhNP0IRq7nK57-AlCGFSycmBo",
+      authDomain: "web-auth-59ec6.firebaseapp.com",
+      databaseURL: "https://web-auth-59ec6.firebaseio.com",
+      projectId: "web-auth-59ec6",
+      storageBucket: "web-auth-59ec6.appspot.com",
+      messagingSenderId: "897057337036",
+      appId: "1:897057337036:web:201eda28137d7379a4dc69",
+      measurementId: "G-L594PEG17K"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+  </script>
+  
+
+
+
+</head>
+
+<body>
+    <nav>
+        <img src="1.png" alt="" class="logo">
+        <h1>Welcome to my Chat App</h1>
+
+       
+    </nav>
+
+    <div class="container">
+
+
+            
+        
+    </div>
+
+    <div class="send">
+
+        <form action="#" id="send-container">
+
+            <input type="text" name="messageInp" id="messageInp" required>
+            <button class="btn" type="submit" >Send</button>
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+
+
+</html>
