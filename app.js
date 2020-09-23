@@ -2,6 +2,8 @@
 getdata ();
 var form = document.getElementById('send-container');
 var messageContainer = document.querySelector('.container');
+let containerdivRef = document.getElementById("messagesDiv");
+// containerdivRef.scrollIntoView(false)
 
 function getdata(){
 
@@ -75,6 +77,7 @@ function AppendSendRecieveMessage(message,possition,UserName){
     newdiv.classList.add('message');
     newdiv.classList.add(possition);
     messageContainer.append(newdiv);
+    containerdivRef.scrollTop = containerdivRef.scrollHeight;
 
    
 }
